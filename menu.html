@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Menu - CozyCafe</title>
+    <link rel="stylesheet" href="interactive-menu.css">
+    
+</head>
+<body style="background-color: rgb(253, 237, 190);">
+    <header>
+        <h1>Explore Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="interactive-menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="menu-tabs">
+            <button onclick="showCategory('breakfast')">Breakfast</button>
+            <button onclick="showCategory('lunch')">Lunch</button>
+            <button onclick="showCategory('beverages')">Beverages</button>
+        </div>
+
+        <div id="menu-content">
+            <!-- JavaScript will load items here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CozyCafe. All rights reserved.</p>
+    </footer>
+
+    <script src="interactive-menu.js"></script>
+</body>
+</html>
